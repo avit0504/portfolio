@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avi Tiwari | DevOps Engineer</title>
+
+<style>
+body {
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:#0f172a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav {
+  position:fixed;
+  width:100%;
+  background:#020617;
+  padding:15px;
+  display:flex;
+  justify-content:space-around;
+  z-index:1000;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+}
+
+nav a:hover {
+  color:#38bdf8;
+}
+
+/* SECTIONS */
+section {
+  padding:100px 10%;
+}
+
+/* HERO */
+.hero {
+  text-align:center;
+  padding-top:120px;
+}
+
+.hero h1 {
+  font-size:50px;
+  animation: fadeIn 2s ease;
+}
+
+.hero p {
+  animation: fadeIn 3s ease;
+}
+
+/* BUTTON */
+.btn {
+  background:#38bdf8;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  margin-top:10px;
+  transition:0.3s;
+}
+
+.btn:hover {
+  transform:scale(1.1);
+}
+
+/* CARDS */
+.card {
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin:10px 0;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-10px);
+}
+
+/* SKILLS */
+.skills span {
+  display:inline-block;
+  background:#334155;
+  padding:8px 12px;
+  border-radius:5px;
+  margin:5px;
+  transition:0.3s;
+}
+
+.skills span:hover {
+  background:#38bdf8;
+  color:black;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {opacity:0; transform:translateY(20px);}
+  to {opacity:1; transform:translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+
+<section class="hero">
+  <h1>Avi Tiwari 👋</h1>
+  <p>Aspiring DevOps Engineer | AWS | Docker | Kubernetes</p>
+  <p>Building scalable cloud systems & automation</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="card">
+    <p>
+      BCA graduate with hands-on experience in AWS, Docker, and cloud deployments.
+      Passionate about DevOps and building scalable infrastructure.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills">
+    <span>AWS</span>
+    <span>Docker</span>
+    <span>Kubernetes</span>
+    <span>Linux</span>
+    <span>Jenkins</span>
+    <span>Git</span>
+    <span>Python</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Media Processing Platform</h3>
+    <p>Serverless pipeline using AWS services like S3, Lambda, SQS.</p>
+  </div>
+
+  <div class="card">
+    <h3>Tiffin Delivery Platform</h3>
+    <p>Docker-based microservices with real-time tracking.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" style="text-align:center;">
+  <h2>Contact</h2>
+  <p>Email: avitiwari5103@gmail.com</p>
+  <p>Phone: +91 9116834707</p>
+</section>
+
+</body>
+</html>
